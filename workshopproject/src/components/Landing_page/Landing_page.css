@@ -1,0 +1,23 @@
+
+.landing-whole{
+    background-color:rgb(16, 16, 16);
+    height: 240vh;
+}
+
+.wave-div{
+    position: absolute;
+    top:73vh;
+   height: 100%;
+   z-index: 1000000000000;
+}
+
+.hide_avatar{
+    position: absolute;
+    top:190vh;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+
+
