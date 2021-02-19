@@ -1,0 +1,680 @@
+.connect-whole{
+    width: 100%;
+    position: relative;
+    height: 25vh;
+}
+
+.border-line{
+    width: 90%;
+    margin: auto;
+    height: 4px;
+    border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+ border-left-style: none;
+ border-right-style: none;
+ border-bottom-style:none ;
+ margin-bottom: 10px;
+}
+
+.connect-heading{
+    width: fit-content;
+    margin: auto;
+}
+
+
+.same{
+  margin-right: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+}
+
+.diff{
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 3px;
+}
+
+.fa-heartbeat::before{
+    margin-right: 10px;
+    font-size: 28px;
+color: red;
+}
+
+.icon-box{
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      margin-right: 35px;
+}
+
+.icon-img{
+    width: fit-content;
+    margin: auto;
+}
+
+.fa-youtube-square::before{
+    font-size: 25px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 25px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 25px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 25px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Connect-icons{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-last{
+    margin-right: 0;
+}
+
+@media (max-width:584px){
+
+    .icon-box{
+        margin-right: 15px;
+    }
+
+    .icon-last{
+        margin-right: 0;
+    }
+
+   
+    
+.fa-youtube-square::before{
+    font-size: 20px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 20px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 20px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 20px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    font-size: 15px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Connect-icons{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+}
+
+@media (max-width:392px){
+
+   
+    
+.fa-youtube-square::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    font-size: 12px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Connect-icons{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.icon-box{
+    margin-right: 8px;
+}
+
+.icon-last{
+    margin-right: 0;
+}
+
+
+}
+
+
+@media (max-height:633px){
+
+    
+.same{
+    margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 3px;
+  }
+  
+  .diff{
+      margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 3px;
+  }
+  
+  .fa-heartbeat::before{
+    margin-right: 10px;
+    font-size: 22px;
+color: red;
+}
+
+.icon-box{
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      margin-right: 35px;
+}
+
+    
+.fa-youtube-square::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    font-size: 12px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Connect-icons{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+}
+
+.border-line{
+    width: 90%;
+    margin: auto;
+    height: 4px;
+    border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+ border-left-style: none;
+ border-right-style: none;
+ border-bottom-style:none ;
+ margin-bottom: 5px;
+ margin-top: 5vh;
+}
+
+
+
+}
+
+@media (max-height:633px) and (max-width:372px){
+
+    .connect-whole{
+        height: 25vh;
+    }
+
+    .icon-box{
+        margin-right: 8px;
+    }
+
+    
+.same{
+    margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 3px;
+  }
+  
+  .diff{
+      margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 3px;
+  }
+  
+  .fa-heartbeat::before{
+    margin-right: 10px;
+    font-size: 22px;
+color: red;
+}
+
+.icon-box{
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      margin-right: 8px;
+}
+
+    
+.fa-youtube-square::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    font-size: 12px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Connect-icons{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+}
+
+.border-line{
+    width: 90%;
+    margin: auto;
+    height: 4px;
+    border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+ border-left-style: none;
+ border-right-style: none;
+ border-bottom-style:none ;
+ margin-bottom: 5px;
+ margin-top: 15vh;
+}
+
+
+
+}
+
+
+@media (max-height:606px){
+
+    .connect-whole{
+        width: 100%;
+        position: relative;
+        height: 30vh;
+    }
+
+    
+.same{
+    margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 3px;
+  }
+  
+  .diff{
+      margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 3px;
+  }
+  
+  .fa-heartbeat::before{
+    margin-right: 10px;
+    font-size: 22px;
+color: red;
+}
+
+.icon-box{
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      margin-right: 35px;
+}
+
+    
+.fa-youtube-square::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 17px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    font-size: 12px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Connect-icons{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+}
+
+.border-line{
+    width: 90%;
+    margin: auto;
+    height: 4px;
+    border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+ border-left-style: none;
+ border-right-style: none;
+ border-bottom-style:none ;
+ margin-bottom: 5px;
+ margin-top: 10vh;
+}
+
+
+
+}
+
+@media (max-height:606px) and (max-width:365px){
+
+    .connect-whole{
+        width: 100%;
+        position: relative;
+        height: 25vh;
+    }
+
+    
+.same{
+    margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 3px;
+  }
+  
+  .diff{
+      margin-right: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 3px;
+  }
+  
+  .fa-heartbeat::before{
+    margin-right: 10px;
+    font-size: 22px;
+color: red;
+}
+
+.icon-box{
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    border-width: 3px;
+    border-style: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+      margin-right: 5px;
+}
+
+    
+.fa-youtube-square::before{
+    font-size: 15px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram::before{
+    font-size: 15px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-spotify::before{
+    font-size: 15px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wikipedia-w::before{
+    font-size: 15px;
+    background: linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-name{
+    font-size: 12px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Connect-icons{
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+}
+
+.border-line{
+    width: 90%;
+    margin: auto;
+    height: 4px;
+    border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+ border-left-style: none;
+ border-right-style: none;
+ border-bottom-style:none ;
+ margin-bottom: 5px;
+ margin-top: 20vh;
+}
+
+
+
+}

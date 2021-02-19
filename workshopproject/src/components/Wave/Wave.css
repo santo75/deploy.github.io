@@ -24,7 +24,7 @@
 .wave-bg-down{
     height: 40vh;
     width: 100%;
-    background-color:rgb(16, 16, 16);
+bottom: 5px;
     z-index: 1000;
     position: relative;
 
@@ -40,7 +40,7 @@
 
 
 .wave-content{
-    height: 45vh;
+    height: 60vh;
     color:red;
     background-color:white;
     display: flex;
@@ -52,24 +52,24 @@
  
 }
 
+
 .profile-img img{
     margin-left: 50px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     display: flex;
     padding: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
-    padding: 20px;
+   /* background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);*/
     padding-bottom: 0;
 
 }
 
 .profile-info{
     text-align: left;
-    font-size: 25px;
+    font-size: 19px;
     position: absolute;
     right:15%;
     color: black;
@@ -85,5 +85,182 @@
     letter-spacing: 3px;
 }
 
+@media (max-width:1024px){
+    .profile-info{
+        width: 55%;
+        right: 5%;
+        font-size: 19px;
+    }
+
+    .profile-img img{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:852px){
+
+    .wave-content{
+
+        height: 85vh;
+        display: grid;
+    }
+    .profile-info{
+        width: 90%;
+        right: 2%;
+        font-size: 20px;
+        position: absolute;
+        top:80vh;
+        left: 20px;
+
+    }
+
+
+
+    .profile-img img{
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+
+    }
+}
+@media (max-width:730px){
+
+    .wave-content{
+
+        height: 95vh;
+        display: grid;
+    }
+    .profile-info{
+        width: 90%;
+        right: 2%;
+        font-size: 20px;
+        position: absolute;
+        top:80vh;
+        left: 20px;
+
+    }
+
+
+
+    .profile-img img{
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+
+    }
+}
+@media (max-width:613px){
+
+    .wave-content{
+
+        height: 80vh;
+        display: grid;
+    }
+    .profile-info{
+        width: 90%;
+        right: 2%;
+        font-size: 16px;
+        position: absolute;
+        top:80vh;
+        left: 20px;
+
+    }
+
+
+
+    .profile-img img{
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+
+    }
+}
+
+
+
+@media (max-width:572px){
+
+    .wave-content{
+
+        height: 92vh;
+        display: grid;
+    }
+    .profile-info{
+        width: 90%;
+        right: 2%;
+        font-size: 15px;
+        position: absolute;
+        top:80vh;
+        left: 20px;
+ 
+    }
+
+
+
+    .profile-img img{
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+
+    }
+}
+
+
+
+
+@media (max-width:410px){
+
+    .wave-content{
+        height: 85vh;
+        display: grid;
+    }
+    .profile-info{
+        width: 90%;
+        right: 2%;
+        font-size: 14px;
+        position: absolute;
+        top:70vh;
+        left: 20px;
+  
+    }
+
+
+
+    .profile-img img{
+        margin-left: 10px;
+        width: 150px;
+        height: 150px;
+
+    }
+}
+@media (max-width:325px){
+
+    .wave-content{
+        height: 95vh;
+        display: grid;
+    }
+    .profile-info{
+        width: 90%;
+        right: 2%;
+        font-size: 14px;
+        position: absolute;
+        top:70vh;
+        left: 20px;
+  
+    }
+
+    .profile-info{
+        font-size: 12px;
+    }
+
+
+
+    .profile-img img{
+        margin-left: 10px;
+        width: 150px;
+        height: 150px;
+
+    }
+}
 
 

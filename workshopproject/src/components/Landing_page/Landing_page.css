@@ -1,12 +1,13 @@
 
 .landing-whole{
     background-color:rgb(16, 16, 16);
-    height: 240vh;
+    height: 260vh;
+    width: 100%;
 }
 
 .wave-div{
     position: absolute;
-    top:73vh;
+    top:77vh;
    height: 100%;
    z-index: 1000000000000;
 }
@@ -18,6 +19,110 @@
     z-index: 1000;
     overflow: hidden;
 }
+
+.connect{
+    position: absolute;
+    top:250vh;
+    width: 100%;
+}
+
+
+@media (max-width:1105px){
+.landing-whole{
+    height: 270vh;
+}
+}
+@media (max-width:955px){
+.landing-whole{
+    height: 280vh;
+}
+}
+
+@media (max-width:852px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 270vh;
+    }
+}
+@media (max-width:750px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+    height: 275vh;
+        padding-bottom: 25px;
+    }
+}
+@media (max-width:640px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 280vh;
+        
+    }
+}
+@media (max-width:576px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 290vh;
+        
+    }
+}
+@media (max-width:494px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 300vh;
+        
+    }
+}
+@media (max-width:394px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 310vh;
+        
+    }
+}
+@media (max-width:362px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 310vh;
+        
+    }
+
+ 
+}
+@media (max-width:352px){
+
+    .hide_avatar{
+        top:220vh;
+    }
+    .landing-whole{
+        height: 320vh;
+        
+    }
+
+ 
+}
+
+
 
 
 

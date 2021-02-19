@@ -11,9 +11,11 @@ export default class Wave extends Component {
                     <img src="./wave3.png"></img>
                     <div className="wave-content">
                    <div className="profile-img">
-                   <img src="https://learnframermotion.com/images/black_man_3d-2.webp"></img>
+                  {/*} <img src="https://learnframermotion.com/images/black_man_3d-2.webp"></img>*/}
+                   <img src="./animation_4.gif"></img>
+
                    </div>
-                   <div className="profile-info">This is Shubham Raj , Student of <span> IIT Tirupati</span>. I have been working as a <span>Web Developer </span> for the past two Years. Basically I am a resident of Patna . I have a keen intrest in Front-End <span>&</span> Back-End . I would like to go more depper into this Field and explore more about the fascinating creations.I have prior experience of working with diifrent Languages such as <span> JavaScript</span>, <span>PHP </span>, <span>MySQL</span> AND MUCH more . </div>
+                   <div className="profile-info">Hey, I got to know about <span>Alan Walker </span> because of his song called <span>Faded</span>. This is an absolutely amazing song, then i did some research on his life and found out that his full name is <span>Alan Olav Walker </span>and he was born on 24 August 1997, he is an English-Norwegian DJ and record producer.In 2015, Walker received international acclaim after releasing the single "Faded", which received platinum certifications in 14 countries. In 2020, he was ranked 26th on DJ Mag. He released his debut studio album,<span> Different World, in 2018</span></div>
                 </div>
                 <div className="wave-bg-down">
                     <img src="./wave4.png"></img>

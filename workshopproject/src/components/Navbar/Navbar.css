@@ -1,0 +1,455 @@
+
+.Nav-sec{
+    color: white;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    height: 8vh;
+    z-index: 100000000;
+  
+}
+
+.home-sec{
+    display: flex;
+    margin-right: 70px;
+    font-size: 24px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.tour-sec{
+    display: flex;
+    margin-right: 70px;
+    font-size: 24px;
+   /* background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.achievement-sec{
+    display: flex;
+    margin-right: 70px;
+    font-size: 24px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.contact-sec{
+    display: flex;
+    margin-right: 70px;
+    font-size: 24px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.float-right{
+    position: absolute;
+    right:5px;
+    display: flex;
+}
+
+.home-svg{
+    margin-right: 10px;
+    
+}
+
+a{
+    text-transform: none;
+    text-decoration: none;
+}
+a:hover{
+    text-transform: none;
+    text-decoration: none;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+.tour-info{
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.tour-svg{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: white;
+}
+
+.tour-info{
+    margin-top: 5px;
+}
+
+.fa-globe::before{
+   font-size: 30px;
+   color: white;
+   animation: spin 30s linear infinite;
+}
+
+
+
+.achievement-svg{
+    margin-right: 10px;
+}
+
+.contact-svg{
+    margin-right: 10px;
+    position: relative;
+    top:4px;
+}
+
+.walker-logo{
+    position: absolute;
+    left: 0;
+    width: fit-content;
+    height: 50px;
+    color: white;
+    display: flex;
+    background-color: black;
+
+}
+
+.walker-logo img{
+    margin-top: 3px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.ham-cont{
+    margin: auto;
+    width:fit-content;
+    padding-left: 120px;
+    padding-right: 120px;
+    height: 100%;
+    background-color: rgb(1,1,1);
+    display: grid;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 5px solid rgb(187, 107, 217);
+    z-index: 101;
+    margin-bottom: 25px;
+}
+
+.home-svg{
+    color: white;
+}
+
+.achievement-svg{
+    color: white;
+}
+
+.contact-svg{
+    color: white;
+}
+
+.cancel-btn{
+    margin-top: 40px;
+    z-index: 1000000;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(89 86 213 / 20%) 0px 0px 10px 5px;
+    border: 2px solid rgba(227, 154, 255, 0.7);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.fa-times::before{
+    font-size: 25px;
+    color: white;
+}
+
+.home-info{
+    margin-top: 5px;
+}
+
+.achievement-info{
+    margin-top: 5px;
+}
+
+.contact-info{
+    margin-top: 7px;
+}
+
+@media (max-width:1135px){
+    .home-sec{
+        margin-right: 35px;
+    }
+    .achievement-sec{
+        margin-right: 35px;
+    }
+    .tour-sec{
+        margin-right: 35px;
+    }
+    .contact-sec{
+        margin-right: 35px;
+    }
+}
+@media (max-width:935px){
+    .home-sec{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .achievement-sec{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .tour-sec{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .contact-sec{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:831px) and (min-width:503px){
+
+    .Nav-sec{
+        display: none;
+    }
+
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        right:30px;
+        top:5vh;
+        width: 40px;
+        height: 40px;
+        z-index: 100000;
+    }
+
+    .hamburger-content{
+        margin: auto;
+        width: 100vw;
+        position: absolute;
+        top:0;
+        top:0vh;
+        z-index: 1000;
+    }
+
+    .line{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background:linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        width: 100%;
+        height: 2px;
+    }
+
+    .line-1{
+     
+        width: 15px;
+        height: 2px;
+        background-color: white;
+        z-index: 1000;
+    }
+    .line-2{
+        margin-top: 5px;
+        width: 25px;
+        height: 2px;
+        background-color: white;
+        z-index: 10000;
+    }
+    .line-3{
+        margin-top: 5px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        z-index: 10000;
+    }
+
+    .home-svg{
+        margin-right: 15px;
+    }
+
+    .tour-svg{
+        margin-right: 15px;
+    }
+
+    .contact-svg{
+        margin-right: 15px;
+    }
+
+    .achievement-svg{
+        margin-right: 15px;
+    }
+  
+}
+
+@media (max-width:503px) and (min-width:400px){
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        right:30px;
+        top:5vh;
+        width: 40px;
+        height: 40px;
+        z-index: 100000;
+    }
+
+    .ham-cont{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .hamburger-content{
+        margin: auto;
+        width: 100vw;
+        position: absolute;
+        top:0;
+        top:0vh;
+        z-index: 1000;
+    }
+
+
+
+    .Nav-sec{
+        display: none;
+    }
+
+    .line{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background:linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        width: 100%;
+        height: 2px;
+    }
+
+    .line-1{
+     
+        width: 15px;
+        height: 2px;
+        background-color: white;
+        z-index: 1000;
+    }
+    .line-2{
+        margin-top: 5px;
+        width: 25px;
+        height: 2px;
+        background-color: white;
+        z-index: 10000;
+    }
+    .line-3{
+        margin-top: 5px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        z-index: 10000;
+    }
+
+
+}
+
+@media (max-width:400px){
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        right:30px;
+        top:5vh;
+        width: 40px;
+        height: 40px;
+        z-index: 100000;
+    }
+
+    .ham-cont{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .hamburger-content{
+        margin: auto;
+        width: 100vw;
+        position: absolute;
+        top:0;
+        top:0vh;
+        z-index: 1000;
+    }
+
+
+
+    .Nav-sec{
+        display: none;
+    }
+
+    .line{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background:linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        width: 100%;
+        height: 2px;
+    }
+
+    .line-1{
+     
+        width: 15px;
+        height: 2px;
+        background-color: white;
+        z-index: 1000;
+    }
+    .line-2{
+        margin-top: 5px;
+        width: 25px;
+        height: 2px;
+        background-color: white;
+        z-index: 10000;
+    }
+    .line-3{
+        margin-top: 5px;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        z-index: 10000;
+    }
+
+    .home-sec{
+        font-size: 17px;
+    }
+
+    .tour-sec{
+        font-size: 17px;
+    }
+
+    .achievement-sec{
+        font-size: 17px;
+    }
+
+    .contact-sec{
+        font-size: 17px;
+    }
+
+
+}

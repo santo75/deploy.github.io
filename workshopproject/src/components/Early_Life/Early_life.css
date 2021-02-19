@@ -1,0 +1,82 @@
+.early-life-whole{
+    display: flex;
+
+}
+
+.early-life-info{
+    padding-left: 25px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.early-life-info:hover {
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+.early-life-img{
+    padding-top: 20px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.early-life-img img{
+    width: 300px;
+    height: 100%;
+}
+
+.early-life-head{
+    font-size: 35px;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+}
+
+@media (max-width:1255px){
+
+    .early-life-img{
+        position: absolute;
+        right: 25px;
+    }
+
+    .early-life-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width:955px){
+    .early-life-img{
+        position: absolute;
+        right: 15px;
+    }
+
+    .early-life-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:852px){
+    .early-life-whole{
+        display: block;
+    }
+
+    .early-life-info{
+        padding-left: 25px;
+        width: 90%;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    
+}

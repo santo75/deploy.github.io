@@ -3,6 +3,8 @@ import Hide_avatar from '../Hide_avatar/Hide_avatar'
 import Top from '../Top'
 import './Landing_page.css'
 import Wave from './../Wave/Wave';
+import Early_life from './../Early_Life/Early_life';
+import Connect from './../Connect/Connect';
 
 export default class Landing_page extends Component {
     render() {
@@ -18,8 +20,9 @@ export default class Landing_page extends Component {
                 </div>
         
             <div className="hide_avatar">
-                    <Hide_avatar></Hide_avatar>
+                <Early_life></Early_life>
         </div> 
+        
             </div>
         )
     }

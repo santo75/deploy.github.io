@@ -1,0 +1,330 @@
+.travel-bg{
+    width: 100vw;
+    height: 100vh;
+}
+
+.travel-bg img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.tour-list{
+    position: absolute;
+    bottom:5vh;
+}
+
+.list-item-tour{
+    width: 100vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.whole-list{
+    width: 70%;
+    margin: auto;
+}
+.list-item-border{
+    display: flex;
+    font-size: 35px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+}
+
+.col-sm-6{
+    font-size: 35px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+}
+
+.col-sm-2{
+    font-size: 35px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.list-item-year-start{
+    font-family: "samarkan";
+    font-size: 45px;
+    width: 10%;
+}
+
+.list-item-btn{
+    width: 10%;
+}
+
+.list-item-year-end{
+    font-family: "samarkan";
+    font-size: 45px;
+}
+
+.border-1{
+    animation-name: right;
+    animation-duration: 2s;
+    position: relative;
+
+}
+
+.border-2{
+    animation-name: left;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.border-3{
+    animation-name: right;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.border-4{
+    animation-name: left;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes right {
+    0%{
+        left:100vw;
+    }
+
+    25%{
+        left:50vw;
+    }
+
+    50%{
+        left:25vw
+    }
+
+    75%{
+        left:10vw
+    }
+
+    100%{
+        left: 0vw;
+    }
+}
+@keyframes left {
+    0%{
+        right:100vw;
+    }
+
+    25%{
+        right:50vw;
+    }
+
+    50%{
+        right:25vw
+    }
+
+    75%{
+        right:10vw
+    }
+
+    100%{
+        right: 0vw;
+    }
+}
+
+@media(max-width:1211px){
+    .list-item-border{
+        font-size: 30px;
+    }
+
+    .col-sm-6{
+        font-size: 30px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 3px;
+    }
+
+    
+.list-item-year-start{
+    font-family: "samarkan";
+    font-size: 35px;
+    width: 10%;
+}
+
+.list-item-btn{
+    width: 10%;
+}
+
+.list-item-year-end{
+    font-family: "samarkan";
+    font-size: 35px;
+}
+}
+@media(max-width:1077px){
+
+    .whole-list{
+        width: 80%;
+    }
+    .list-item-border{
+        font-size: 30px;
+    }
+
+    .col-sm--6{
+        font-size: 30px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 3px;
+    }
+
+    
+.list-item-year-start{
+    font-family: "samarkan";
+    font-size: 35px;
+    width: 10%;
+}
+
+.list-item-btn{
+    width: 10%;
+}
+
+.list-item-year-end{
+    font-family: "samarkan";
+    font-size: 35px;
+}
+}
+@media(max-width:925px){
+
+    .whole-list{
+        width: 90%;
+    }
+    .list-item-border{
+        font-size: 30px;
+    }
+
+    .col-sm--6{
+        font-size: 30px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 3px;
+    }
+
+    .list-item-btn{
+        font-size: 35px;
+    }
+
+    
+.list-item-year-start{
+    font-family: "samarkan";
+    font-size: 35px;
+    width: 10%;
+}
+
+.list-item-btn{
+    width: 10%;
+}
+
+.list-item-year-end{
+    font-family: "samarkan";
+    font-size: 35px;
+}
+}
+@media(max-width:821px){
+
+    .whole-list{
+        width: 90%;
+    }
+    .list-item-border{
+        font-size: 22px;
+    }
+
+    .col-sm-6{
+        font-size: 20px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 1px;
+    }
+
+    .list-item-btn{
+        font-size: 25px;
+    }
+
+
+
+    
+.list-item-year-start{
+    font-family: "samarkan";
+    font-size: 25px;
+    width: 10%;
+}
+
+.list-item-btn{
+    width: 10%;
+}
+
+.list-item-year-end{
+    font-family: "samarkan";
+    font-size: 25px;
+}
+}
+
+@media (max-width:576px){
+    
+    .whole-list{
+        width: 90%;
+    }
+    .list-item-border{
+        font-size: 25px;
+    }
+
+    .col-sm-6{
+        font-size: 25px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 1px;
+    }
+
+  
+    .col-3{
+        text-align: left;
+    }
+
+    .list-item-btn{
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+
+    
+.list-item-year-start{
+    font-family: "samarkan";
+    font-size: 30px;
+    width: 10%;
+}
+
+.list-item-btn{
+    width: 10%;
+}
+
+.list-item-year-end{
+    font-family: "samarkan";
+    font-size: 30px;
+}
+}

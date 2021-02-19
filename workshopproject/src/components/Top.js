@@ -1,15 +1,21 @@
 import React, { Component } from 'react'
 import './Top.css'
-
+import {Link} from 'react-router-dom'
+import Navbar from './Navbar/Navbar';
 export default class Top extends Component {
     render() {
         return (
-            <div>
+            <div className="top-whole">
+
+
                 <div className="top-bg">
                     <img src="https://learnframermotion.com/images/bg-darker.webp"></img>
+                
 
                     <div className="top-intro"></div>
                 </div>
+
+                <Navbar></Navbar>
 
                 <div className="welcome-intro">
                     <div className="intro-heading">Welcome To my Page</div>
