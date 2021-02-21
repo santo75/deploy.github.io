@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .early-life-whole{
     display: flex;
 
@@ -9,6 +10,7 @@
     color: white;
     font-size: 20px;
     letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .early-life-info:hover {
@@ -25,6 +27,14 @@
     width: 30%;
     display: flex;
     justify-content: center;
+}
+
+.early-life-img::after{
+    position: absolute;
+    content: "";
+background: url(early-life.jpg);
+    z-index: 100000;
+    left: -15px;
 }
 
 .early-life-img img{

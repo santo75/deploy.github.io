@@ -1,6 +1,5 @@
 .connect-whole{
     width: 100%;
-    position: relative;
     height: 25vh;
 }
 
@@ -114,6 +113,8 @@ color: red;
 .icon-last{
     margin-right: 0;
 }
+
+
 
 @media (max-width:584px){
 

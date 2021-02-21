@@ -1,0 +1,107 @@
+.contact-whole{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.contact-nav{
+    z-index: 100000;
+}
+
+.collage{
+    width: 100%;
+    height: 100vh;
+}
+
+.top-img{
+    width: 50%;
+    height: 70vh;
+    margin-left: 25%;
+}
+
+.contact_us{
+    width: 70vw;
+    margin: auto;
+    height: 70vh;
+    position: relative;
+    z-index: -10;
+    padding-top: 50px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+    border-image-slice: 1;
+    border-image-source:  linear-gradient(180deg ,rgb(0,176,227,1) 48%,rgb(180,160,255,1) 100%);
+    border-style: solid;
+    padding-top: 0;
+}
+
+.contact_us img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+
+.page-title{
+    font-size: 70px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+
+.email:focus, .sub:focus, .msg:focus,.name:focus{
+    background-color: #e6f9ff;
+    outline: none;
+}
+
+.email:hover, .sub:hover, .msg:hover,.name:hover{
+    cursor: pointer;
+}
+
+.btn-box{
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-box:hover{
+    z-index: 100;
+    margin-top: -2px;
+}
+
+.send{
+    background: linear-gradient(95.66deg, rgb(161, 185, 212) 30.07%, rgb(180, 218, 199) 104.98%);
+    width: 100%;
+}
+
+.send:hover{
+    color: black;
+    font-weight: 600;
+}
+
+.name_label, .email_label{
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 180px;
+}
+
+.sub_label, .msg_label{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 180px;
+}
+
+.flex-display{
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+
+.form-start{
+    position: absolute;
+    top:2vh;
+}
