@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './walker.css';
+import Navbar from './../Navbar/Navbar';
 
 class Career extends Component {
     state = {  }
@@ -7,6 +8,7 @@ class Career extends Component {
         return ( 
             <React.Fragment>
                 <div className="container-fluid wrapper">
+                    <Navbar></Navbar>
                     <div className="row">
                         <div className="career col-md-12">
                             Career

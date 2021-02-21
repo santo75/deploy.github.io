@@ -16,7 +16,10 @@
 }
 
 .career{
-    margin-bottom: 120px;
+    position: relative;
+    top:50px;
+    margin-bottom: 90px;
+    
 }
 
 
@@ -325,3 +328,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
           }
       }
      
+      @media(max-width:928px){
+          .career{opacity: 0;}
+      }
