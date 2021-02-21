@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Workshop/static/css/main.b50bcce3.chunk.css",
+    "main.js": "/Workshop/static/js/main.d89eae15.chunk.js",
+    "main.js.map": "/Workshop/static/js/main.d89eae15.chunk.js.map",
+    "runtime-main.js": "/Workshop/static/js/runtime-main.2be87953.js",
+    "runtime-main.js.map": "/Workshop/static/js/runtime-main.2be87953.js.map",
+    "static/css/2.fb1ef129.chunk.css": "/Workshop/static/css/2.fb1ef129.chunk.css",
+    "static/js/2.44632088.chunk.js": "/Workshop/static/js/2.44632088.chunk.js",
+    "static/js/2.44632088.chunk.js.map": "/Workshop/static/js/2.44632088.chunk.js.map",
+    "static/js/3.6ba6d073.chunk.js": "/Workshop/static/js/3.6ba6d073.chunk.js",
+    "static/js/3.6ba6d073.chunk.js.map": "/Workshop/static/js/3.6ba6d073.chunk.js.map",
+    "index.html": "/Workshop/index.html",
+    "static/css/2.fb1ef129.chunk.css.map": "/Workshop/static/css/2.fb1ef129.chunk.css.map",
+    "static/css/main.b50bcce3.chunk.css.map": "/Workshop/static/css/main.b50bcce3.chunk.css.map",
+    "static/js/2.44632088.chunk.js.LICENSE.txt": "/Workshop/static/js/2.44632088.chunk.js.LICENSE.txt",
+    "static/media/Early_life.css": "/Workshop/static/media/early-life.5f1977f4.jpg",
+    "static/media/font-awesome.min.css": "/Workshop/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2be87953.js",
+    "static/css/2.fb1ef129.chunk.css",
+    "static/js/2.44632088.chunk.js",
+    "static/css/main.b50bcce3.chunk.css",
+    "static/js/main.d89eae15.chunk.js"
+  ]
+}
