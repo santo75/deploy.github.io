@@ -12,11 +12,10 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top:2px ;
-    line-height: 100px;
 }
 
 .career{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .career:hover, .awards:hover{
@@ -30,7 +29,7 @@
 
 .careerDetails{
     position: absolute;
-    top: 25%;
+    top: -50%;
     color: white;
     border: 1px solid white;
     padding: 10px;
@@ -69,9 +68,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 @media only screen and (max-width: 600px) {
-    .awards {
-      margin-top: 200px;
-    }
+    
     .careerDetails{
         font-size: 13px;
     }
@@ -89,11 +86,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     .aw1,.aw2{
         opacity: 1;
         width: 120%;
-        left: -10%;
     }
     .careerDetails{
        left: 0;
-       top: 7%;
+       top: -50%;
     }
   }
 
@@ -101,60 +97,63 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     .careerDetails{
         left: 0;
-        top: 13%;
+        top: -50%;
      }
   }
-
-  @media  (max-width: 756px ) {
-    .awards{
-        margin-top: 100px;
-    }
-  }
-
-  @media  (max-width: 400px ) {
-    .awards{
-        margin-top: 200px;
-    }
-  }
-
-  @media  (max-width: 350px ) {
-    .awards{
-        margin-top: 300px;
-    }
-  }
-
-  @media  (max-width: 325px ) {
-    .awards{
-        margin-top: 330px;
-    }
-  }
-
-  @media  (min-width: 758px ) {
-      .awards{
-          margin-top: 400px;
-      }
-    }
-
-    @media  (min-width: 788px ) {
-        .awards{
-            margin-top: 380px;
-        }
-      }
-
-      @media  (min-width: 850px ) {
-        .awards{
-            margin-top: 200px;
-        }
-      }
-
-      @media  (min-width: 900px ) {
-        .awards{
-            margin-top: 100px;
-        }
-      }
+  
+ 
       
-      @media  (min-width: 1100px ) {
-        .awards{
-            margin-top: 50px;
+
+      .awards{
+          margin-top: -200px;
+      }
+
+
+
+      @media (max-width:400px){
+        .career{
+            margin-bottom: 200px;
         }
       }
+
+      @media (min-width:411px) and (max-width:500px){
+        .awards{
+            margin-top:-400px;
+        }
+      }
+
+      @media (min-width:360px) and (max-width:411px){
+        .awards{
+            margin-top:-200px;
+        }
+      }
+
+      @media (max-width:360px){
+        .awards{
+            margin-top:-500px;
+        }
+      }
+
+      @media (max-width:600px){
+        .awards{
+            font-size: 30px;
+        }
+        .career{
+            margin-bottom: 100px;
+        }
+      }
+
+      @media (max-width:411px){
+        .awards{
+            font-size: 25px;
+        }
+      }
+
+      @media (max-width:411px){
+        .awards{
+            margin-top:-600px;
+        }
+      }
+
+
+     
