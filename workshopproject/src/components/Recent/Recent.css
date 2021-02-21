@@ -296,12 +296,12 @@
 
 @media(max-width:1255px){
     .group-1{
-        width: 70%;
+        width: 90%;
     }
 
     .group-3{
         margin-top: 25px;
-        width: 70%;
+        width: 90%;
     }
    .recent-img{
        display: grid;
@@ -324,12 +324,12 @@
 
 @media(max-width:975px){
     .group-1{
-        width: 80%;
+        width: 90%;
     }
 
     .group-3{
         margin-top: 25px;
-        width: 80%;
+        width: 90%;
     }
    .recent-img{
        display: grid;
@@ -425,24 +425,24 @@
    }
 
    .img-first{
-       width: 70%;
+       width: 95%;
        height: 300px;
    }
    .img-second{
        margin-top: 35px;
-       width: 70%;
+       width: 95%;
        height: 300px;
    }
    .img-fourth{
     height: 300px;
-       width: 70%;
+       width: 95%;
        margin-top: 35px;
    }
 
    .img-third{
     height: 300px;
        margin-left: 0;
-    width: 70%;
+    width: 95%;
     height: 300px;
     margin-right: 5%;
 
@@ -486,24 +486,24 @@
    }
 
    .img-first{
-       width: 90%;
+       width: 95%;
        height: 300px;
    }
    .img-second{
        margin-top: 35px;
-       width: 90%;
+       width: 95%;
        height: 300px;
    }
    .img-fourth{
     height: 300px;
-       width: 90%;
+       width: 95%;
        margin-top: 35px;
    }
 
    .img-third{
     height: 300px;
        margin-left: 0;
-    width: 90%;
+    width: 95%;
     height: 300px;
     margin-right: 5%;
 

@@ -9,7 +9,7 @@
     font-size: 50px;
     text-align: center;
     background: -webkit-linear-gradient(white, rgb(31, 240, 31));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top:2px ;
     line-height: 100px;
@@ -21,7 +21,7 @@
 
 .career:hover, .awards:hover{
     background: -webkit-linear-gradient(rgb(31, 240, 31),white);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
     letter-spacing: 10px;
@@ -77,7 +77,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     }
     .career:hover, .awards:hover{
         background: -webkit-linear-gradient(rgb(31, 240, 31),white);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 40px;
         letter-spacing: 5px;

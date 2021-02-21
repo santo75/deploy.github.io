@@ -33,7 +33,7 @@ export default class Recent extends Component {
                         <div className="recent-info"><p>Panda Tour</p></div>
                     </div>
                     <div className="img-fourth">
-                    <img src="./Alan1.jfif" className="img-4"></img>
+                    <img src="./recent1.jpg" className="img-4"></img>
                     <div className="img-line-1"></div>
                         <div className="img-line-4"></div>
                         <div className="recent-info"><p>Nepal Tour</p></div>
