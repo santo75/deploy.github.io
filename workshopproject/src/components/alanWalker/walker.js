@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Zoom } from "react-awesome-reveal";
 import './walker.css';
 
 class Career extends Component {
@@ -26,7 +25,7 @@ class Career extends Component {
                         </div>
                 
                         <div className="col-md-4 head-para">
-                        <Zoom bottom delay={500}>
+                     
                             <h1 className="subheading-section-2">Awards</h1>
                             <p className="para-details">Årets Musikk (Music of the Year)</p>
                             <p className="para-details">Best Norwegian Act</p>
@@ -35,25 +34,25 @@ class Career extends Component {
                             <p className="para-details">Best Western Artist of the Year</p>
                             <p className="para-details">Best Western Single of the Year</p>
                             <p className="para-details">Best New Talent</p>
-                        </Zoom>
+                 
                         </div>
                         <div className="col-md-4 head-para">
-                        <Zoom top delay={500}>
+                   
                             <h1 className="subheading-section-2">Supporting</h1>
                             <p className="para-details">Rihanna – Anti World Tour (2016)</p>
                             <p className="para-details">Justin Bieber – Purpose World Tour (2017)</p>
                             <p className="para-details">Martin Garrix – Thursdays at Ushuaïa</p>
-                        </Zoom>
+                    
                         </div>
                         <div className="col-md-3 head-para offset-md-1">
-                        <Zoom bottom delay={500}>
+                  
                             <h1 className="subheading-section-2">DJ</h1>
                             <p className="para-details">DJ Magazine Top 100 DJs</p>
                             <p className="para-details">In year 2016 , 55 position in New Entry</p>
                             <p className="para-details">In year 2017 , 17 position in Up 38</p>
                             <p className="para-details">In year 2018 , 36 position in Down 19</p>
                             <p className="para-details">In year 2019 , 27 position in Up 11</p>
-                        </Zoom>
+                   
                         </div>
 
                     </div>

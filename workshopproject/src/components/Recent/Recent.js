@@ -19,7 +19,7 @@ export default class Recent extends Component {
                         <div className="recent-info"> <p>Bangkok Tour</p></div>
                     </div>
                     <div className="img-second">
-                    <img src="./Alan2.jfif" className="img-2"></img>
+                    <img src="./recent5.jpg" className="img-2"></img>
                     <div className="img-line-1"></div>
                         <div className="img-line-4"></div>
                         <div className="recent-info"><p>Florida Tour</p></div>
@@ -27,7 +27,7 @@ export default class Recent extends Component {
                     </div>
                     <div className="group-3">
                         <div className="img-third">
-                    <img src="./Alan3.jfif" className="img-3"></img>
+                    <img src="./recent4.jpg" className="img-3"></img>
                     <div className="img-line-1"></div>
                         <div className="img-line-4"></div>
                         <div className="recent-info"><p>Panda Tour</p></div>

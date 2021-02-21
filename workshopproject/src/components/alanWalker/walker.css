@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .wrapper{
     background-color: black;
     overflow-x: hidden;
@@ -5,31 +6,24 @@
 
 .career, .awards{
     color: white;
-    font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 50px;
     text-align: center;
-    background: -webkit-linear-gradient(white, rgb(31, 240, 31));
+    background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top:2px ;
+    font-family: 'Oswald', sans-serif;
 }
 
 .career{
     margin-bottom: 120px;
 }
 
-.career:hover, .awards:hover{
-    background: -webkit-linear-gradient(rgb(31, 240, 31),white);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 60px;
-    letter-spacing: 10px;
-    border-bottom: 2px solid white;
-}
+
 
 .careerDetails{
     position: absolute;
-    top: -50%;
+    top:-50%;
     color: white;
     border: 1px solid white;
     padding: 10px;
@@ -73,9 +67,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         font-size: 13px;
     }
     .career:hover, .awards:hover{
-        background: -webkit-linear-gradient(rgb(31, 240, 31),white);
+     
+        background: -webkit-linear-gradient(45deg, rgb(227, 154, 255) 1%, rgb(97, 218, 251) 123.31%);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+     
         font-size: 40px;
         letter-spacing: 5px;
         border-bottom: 1px solid white;
@@ -156,4 +152,176 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       }
 
 
+      @media (max-width:501px){
+        .wrapper{
+            height: 330vh;
+            overflow: hidden;
+        }
+       
+
+          .awards{
+
+             position: relative;
+             height: fit-content;
+           
+          }
+
+          .head-para{
+
+              position: relative;
+              bottom: 290px;
+          }
+      }
+     
+
+      @media (max-width:461px){
+        .wrapper{
+            height: 330vh;
+            overflow: hidden;
+        }
+       
+        
+
+          .awards{
+
+             position: relative;
+             bottom: 50px;
+             height: fit-content;
+           
+          }
+
+          .head-para{
+
+              position: relative;
+              bottom: 320px;
+          }
+      }
+     
+
+      @media (max-width:431px){
+        .wrapper{
+
+            height: 330vh;
+            overflow: hidden;
+        }
+       
+     
+
+          .awards{
+
+             position: relative;
+             bottom: 70px;
+             height: fit-content;
+           
+          }
+
+          .head-para{
+
+              position: relative;
+              bottom: 340px;
+          }
+      }
+     
+
+      @media (max-width:431px){
+        .wrapper{
+            height: 300vh;
+            overflow: hidden;
+        }
+       
+         
+
+          .awards{
+             position: relative;
+             bottom: 150px;
+             font-size: 20px;
+             height: fit-content;
+           
+          }
+
+          .head-para{
+              position: relative;
+              bottom: 440px;
+          }
+      }
+     
+
+      @media (max-width:411px){
+        .wrapper{
+
+            height: 300vh;
+            overflow: hidden;
+        }
+       
+      
+
+          .awards{
+
+             position: relative;
+             bottom: 0;
+             font-size: 20px;
+             height: fit-content;
+           
+          }
+
+          .head-para{
+
+              position: relative;
+              bottom: 500px;
+          }
+      }
+     
+
+      @media (max-width:411px){
+        .wrapper{
+
+            height: 300vh;
+            overflow: hidden;
+        }
+       
+     
+          .awards{
+
+             position: relative;
+             bottom: -25px;
+             font-size: 20px;
+             height: fit-content;
+           
+          }
+
+          .head-para{
+
+              position: relative;
+              bottom: 500px;
+          }
+      }
+     
+     
+
+      @media (max-width:374px){
+        .wrapper{
+  
+            height: 180vh;
+            overflow: hidden;
+        }
+       
+        .careerDetails{
+            display: none;
+        }
+          
+          .awards{
+  
+             position: relative;
+             bottom: -25px;
+             font-size: 20px;
+             height: fit-content;
+             display: none;
+           
+          }
+
+          .head-para{
+              position: relative;
+              bottom: 500px;
+          }
+      }
      
